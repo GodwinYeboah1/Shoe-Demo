@@ -1,38 +1,63 @@
-.App {
+.card-img {
+  background-image: url("https://sneakerbardetroit.com/wp-content/uploads/2018/08/Shoe-City-x-EAT-x-New-Balance-990v4-Release-Date.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 152px;
+}
+.card-deck {
+  margin-top: 2rem;
+}
+.jumbo-background-img {
+  background-image: url("https://sneakernews.com/wp-content/uploads/2019/11/eat-shoe-city-new-balance-990v5-release-date-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+}
+.header-section {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-section span {
+  display: block;
+}
+.header-icon {
+  background-image: url("https://sneakernews.com/wp-content/uploads/2019/11/eat-shoe-city-new-balance-990v5-release-date-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.header-title {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 24px;
+}
+.jumbotron.jumbotron-fluid.jumbo-background-img
+.container.banner-box {
+  background-color: #fff;
+  opacity: .8;
+  max-width: 400px;
+  margin-left: 25px;
+  border-radius: 30px;
+  padding: 10px;
+}
+.header-icon {
+  background-image: url(https://sneakernews.com/wp-content/uploads/2019/11/eat-shoe-city-new-balance-990v5-release-date-4.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: block;
+  width: 20%;
+  height: 68px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body.container {
+  background: #fff;
 }

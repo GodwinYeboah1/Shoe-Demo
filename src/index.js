@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact.lazy';
+import Login from './components/Login/Login';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App />,
+    <About />,
+    <Contact></Contact>,
+    <Login />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
